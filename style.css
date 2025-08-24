@@ -1,0 +1,107 @@
+/* 全局样式 */
+body {
+  margin: 0;
+  font-family: "Microsoft YaHei", sans-serif;
+  background-color: #fffbea; /* 奶白黄色 */
+  color: #333;
+}
+
+/* 导航栏 */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #b22222; /* 红色 */
+  padding: 10px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar .logo {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.navbar .logo img {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.navbar .nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar .nav-links li {
+  display: inline;
+}
+
+.navbar .nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.navbar .nav-links a:hover {
+  color: #ffd700; /* 金黄色 */
+}
+
+/* 首页 */
+.hero {
+  height: 100vh;
+  background: linear-gradient(rgba(178,34,34,0.8), rgba(178,34,34,0.8)),
+              url("banner.jpg") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+
+.hero h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2em;
+}
+
+/* About */
+.about {
+  padding: 60px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.about h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #b22222;
+}
+
+/* 联系我们 */
+.contact {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #ffe97f; /* 柔和黄色 */
+}
+
+.contact h2 {
+  margin-bottom: 20px;
+  color: #b22222;
+}
+
+/* 页脚 */
+footer {
+  background-color: #b22222;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+}
